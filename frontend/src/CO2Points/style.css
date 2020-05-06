@@ -16,6 +16,7 @@ body {
     align-items: center;
     background-color: rgb(249, 249, 249);
     font-family: 'IBM Plex Sans', sans-serif;
+    text-shadow: 2px 2px 5px rgb(211, 211, 211);
 }
 
 html, body {
@@ -28,6 +29,11 @@ a {
     color: black;
 }
 
+span {
+    font-size: 6rem;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
 nav {
     display: flex;
     width: 100vw;
@@ -35,7 +41,6 @@ nav {
     justify-content: space-around;
     align-items: center;
     border-bottom: 1pt solid #E8170C;
-    text-shadow: 2px 2px 5px rgb(211, 211, 211);
 }
 
 nav h1 {
@@ -84,15 +89,45 @@ li > a:hover:before {
 }
 
 main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 10vh;
+    padding: 2%;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgb(219, 219, 219);
+}
+
+main, main * {
+    border-radius: 10px;
+}
+
+.map-title {
+    text-decoration: underline;
+    font-weight: 200;
+    font-size: 4rem;
 }
 
 main img {
     width: auto;
     max-width: 80vw;
     height: auto;
-    border-radius: 10px;
-    box-shadow: 10px 10px 20px rgb(219, 219, 219);
+    margin: 2% 0;
+}
+
+.measure-container {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    margin-top: 5vh;
+}
+
+.measure {
+    width: 50vw;
+    height: 10vh;
+    margin: 10vh 1vw;
+    border: 1pt solid black;
+    background: linear-gradient(90deg, rgba(250,250,250,1) 0%, rgba(255,18,18,1) 50%, rgba(0,0,0,1) 100%);
 }
 
 footer {
