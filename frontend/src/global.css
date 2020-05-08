@@ -16,12 +16,16 @@ body {
     align-items: center;
     background-color: rgb(249, 249, 249);
     font-family: 'IBM Plex Sans', sans-serif;
-    text-shadow: 2px 2px 5px rgb(211, 211, 211);
 }
 
 html, body {
     max-width: 100vw;
     min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
 
 nav {
@@ -31,16 +35,12 @@ nav {
     justify-content: space-around;
     align-items: center;
     border-bottom: 1pt solid #E8170C;
+    text-shadow: 2px 2px 5px rgb(211, 211, 211);
 }
 
 nav h1 {
     font-size: 8rem;
     text-align: left;
-}
-
-nav a {
-    text-decoration: none;
-    color: black;
 }
 
 nav ul {
