@@ -23,6 +23,16 @@ html, body {
     min-height: 100vh;
 }
 
+#h1-top{
+    font-size: 4rem;
+    text-align: left;
+}
+
+#h1-top:hover{
+    transform: scale(1.1);
+    transition-duration: 0.3s;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -36,12 +46,7 @@ nav {
     align-items: center;
     border-bottom: 1pt solid #E8170C;
     text-shadow: 2px 2px 5px rgb(211, 211, 211);
-}
-
-nav h1 {
-    font-size: 8rem;
-    text-align: left;
-}
+}       
 
 nav ul {
     display: flex;
@@ -51,7 +56,7 @@ nav ul {
 }
 
 nav ul li {
-    font-size: 4rem;
+    font-size: 3rem;
     transition-duration: 0.2s;
 }
 
@@ -74,7 +79,7 @@ li > a:before {
 }
 
 li > a:hover {
-    font-size: 4.2rem;
+    font-size: 3.6rem;
 }
 
 li > a:hover:before {
@@ -82,16 +87,24 @@ li > a:hover:before {
     transform: scaleX(1);
 }
 
-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100vw;
-    height: 10vh;
+#footer-div{
+    text-align: center;
     border-top: 1pt solid #E8170C;
+    width: 100%;
 }
 
-footer p {
-    font-size: 4rem;
-    text-shadow: 2px 2px 5px rgb(211, 211, 211);
+#footer-p1{
+    margin-top: 20px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+#footer-p2{
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#footer-p3{
+    font-size: 14px;
+    margin-bottom: 30px;
 }
