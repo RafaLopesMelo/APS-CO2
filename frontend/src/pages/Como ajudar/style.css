@@ -32,8 +32,10 @@ main {
 }
 
 .description {
+    display: flex;
+    align-items: center;
     max-width: 50%;
-    max-height: 100%;
+    height: 100%;
 }
 
 .description p {
