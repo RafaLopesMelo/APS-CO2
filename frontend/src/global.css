@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;700&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -24,13 +26,13 @@ html, body {
 }
 
 #h1-top{
-    font-size: 4rem;
+    font-size: 6rem;
     text-align: left;
+    transition-duration: 0.3s;
 }
 
 #h1-top:hover{
     transform: scale(1.1);
-    transition-duration: 0.3s;
 }
 
 a {
@@ -56,7 +58,7 @@ nav ul {
 }
 
 nav ul li {
-    font-size: 3rem;
+    font-size: 4rem;
     transition-duration: 0.2s;
 }
 
@@ -79,7 +81,7 @@ li > a:before {
 }
 
 li > a:hover {
-    font-size: 3.6rem;
+    font-size: 4.5rem;
 }
 
 li > a:hover:before {
