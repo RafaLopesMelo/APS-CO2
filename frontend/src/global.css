@@ -110,3 +110,15 @@ li > a:hover:before {
     font-size: 14px;
     margin-bottom: 30px;
 }
+
+@media(max-width:1100px) {
+    html {
+        font-size: 50%;
+    }
+}
+
+@media(max-width:900px) {
+    html {
+        font-size: 40%;
+    }
+}
