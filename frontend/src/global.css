@@ -67,7 +67,7 @@ nav ul li > a {
     transition-duration: 0.2s;
 }
 
-li > a:before {
+nav li > a:before {
     content: "";
     position: absolute;
     width: 100%;
@@ -80,11 +80,11 @@ li > a:before {
     transition: all 0.5s ease-in-out 0s;
 }
 
-li > a:hover {
+nav li > a:hover {
     font-size: 4.5rem;
 }
 
-li > a:hover:before {
+nav li > a:hover:before {
     visibility: visible;
     transform: scaleX(1);
 }
