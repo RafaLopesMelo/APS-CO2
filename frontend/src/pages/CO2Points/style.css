@@ -19,8 +19,7 @@ main, main * {
 }
 
 .map-title {
-    text-decoration: underline;
-    font-weight: 200;
+    font-weight: bold;
     font-size: 4rem;
 }
 
